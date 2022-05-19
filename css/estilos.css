@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(37, 37, 37);
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.header__logo{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo img{
+    width: 100%;
+}
+
+.header__menu{
+    background-color: rgb(240, 129, 3);
+    width: 100%;
+    
+
+}
+.header__menu ul{
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__menu li a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    text-transform:uppercase;
+    transition: all 1s ease;
+}
+
+.header__menu li a:hover{
+    background-color:rgba(58, 58, 58, 0.486);
+    width: 110%;
+    height: 60px;
+}
+
+@media screen and (min-width:700px) {
+    
+}
+
+/* MAIN */
+
+/* bienvenida */
+
+.banner__general{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bienvenido{
+    background-color: rgba(176, 177, 177, 0.404);
+    font-size: 30px;
+    width: 100%;
+    max-width: 470px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.aprende{
+    color: rgb(240, 129, 3);
+    font-size: 25px;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.banner__general a{
+    color: rgb(119, 119, 119);
+    background-color: rgba(104, 104, 104, 0.226);
+    padding: 15px;
+    font-size: 13px;
+}
+
+/* texto */
+
+.principal{  
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .4);
+}
+
+.principal_texto{
+    background-image: url(../imagenes/principal.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(163, 115, 61);
+    padding: 5px;
+}
+
+.pregunta{
+    font-size: 30px;
+    background-color: rgba(2, 2, 2, 0.486);
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.explicacion{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: rgba(2, 2, 2, 0.486);
+    padding: 0.5rem;
+}    
+
+.banner__general div h2{
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(250, 164, 66);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-evenly;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.padre__footer div h3{
+    text-align: center;
+}
+
+.encabezado__footer{
+    background-color: rgb(37, 37, 37);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .3);
+    text-transform: uppercase;
+}
+
+.encabezado__footer h3{
+    color: rgb(240, 129, 3);
+}
+
+.cajas__footer{
+    background-color:rgb(37, 37, 37);
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .3);
+}
+
+.cajas__footer div:hover{
+    background-color: rgb(252, 171, 79);
+    width: 80%;
+    height: 210px;
+}
+
+.cajas__footer div{
+    background-color: rgb(180, 98, 3);
+    width: 70%;
+    max-width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+    transition: all 1s ease;
+}
+
+.cajas__footer div h4{
+    text-align: center;
+}
+
+.copy__footer{
+    width: 50%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(37, 37, 37);
+    text-align: center;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+
+
+.criptomoneda{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+
+.exchange{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blockchain{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.estrategias{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+
+
+
+@media all and (min-width: 768px){
+
+    footer{
+        height: 500px;
+    }
+
+    .cajas__footer{
+        height: 300px;
+        flex-direction: row;
+
+    }
+
+    .cajas__footer div{
+        width: 20%;
+        height: 200px;
+        
+    }
+    
+}
