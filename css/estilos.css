@@ -11,8 +11,8 @@ header{
     height: 250px;
     width: 100%;
     display: flex;
-    flex-direction:column;
     align-items: center;
+    flex-direction:column;
     justify-content: space-around;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -23,6 +23,7 @@ header{
     width: 200px;
     height: 200px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -33,9 +34,8 @@ header{
 .header__menu{
     background-color: rgb(240, 129, 3);
     width: 100%;
-    
-
 }
+
 .header__menu ul{
     list-style-type: none;
     height: 50px;
@@ -44,6 +44,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0px 10px;
+    max-width: 500px;
 }
 
 .header__menu li a{
@@ -73,7 +74,7 @@ header{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 350px;
+    height: 450px;
     background-color: rgb(37, 37, 37);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -108,8 +109,8 @@ header{
 
 .aprende{
     color: rgb(240, 129, 3);
-    font-size: 25px;
-    padding: 1rem;
+    font-size: 20px;
+    padding: 0.8rem;
     text-align: center;
     font-weight: 300;
     max-width: 300px;
@@ -117,7 +118,16 @@ header{
     margin: auto;
 }
 
-/* ver mas */
+.tips{
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 0.5rem;
+    max-width: 300px;
+}
+
+/* instagram */
 
 .banner__general a{
     color: rgb(119, 119, 119);
@@ -125,12 +135,17 @@ header{
     padding: 12px;
     font-size: 13px;
     text-decoration: none;
-    margin-bottom: 25px;
+    margin-bottom: 2px;
     transition: all 1s ease;
 }
 
 .banner__general a:hover{
     background-color: rgba(255, 255, 255, 0.678);
+}
+
+.instagram_img img{
+    width: 20px;
+    height: 20px;
 }
 
 /* texto */
