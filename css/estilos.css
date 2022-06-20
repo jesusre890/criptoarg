@@ -169,7 +169,7 @@ header{
 
 
 .pregunta{
-    font-size: 25px;
+    font-size: 30px;
     background-color: rgba(2, 2, 2, 0.486);
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -299,7 +299,7 @@ footer{
 }
 
 .estrategias{
-    width: 20%;
+    width: 18%;
     height: 100px;
     display: flex;
     justify-content: space-around;
